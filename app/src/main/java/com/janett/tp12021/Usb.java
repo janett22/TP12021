@@ -14,7 +14,7 @@ public class Usb extends BroadcastReceiver {
 
         if(conectado){
             Toast.makeText(context, "Se va a realizar una llamada", Toast.LENGTH_LONG).show();
-            Intent i=new Intent(intent.ACTION_CALL, Uri.parse("tel: 911"));
+            Intent i=new Intent(intent.ACTION_CALL, Uri.parse("tel: 912"));
             context.startActivity(i);
         }
 
